@@ -74,4 +74,5 @@
       </div>
     </div>
   </body>
+  <script>var _registerServiceWorker=function(){var n;navigator.serviceWorker&&(navigator.serviceWorker.register("sw.js").then((function(n){navigator.serviceWorker.controller&&(n.waiting?_updateReady(n.waiting):n.installing?_trackInstalling(n.installing):n.addEventListener("updatefound",(function(){_trackInstalling(n.installing)})))})),navigator.serviceWorker.addEventListener("controllerchange",(function(){n||(window.location.reload(),n=!0)})))},_trackInstalling=function(n){n.addEventListener("statechange",(function(){"installed"==n.state&&_updateReady(n)}))},_updateReady=function(n){n.postMessage({action:"skipWaiting"})};</script>
 </html>
